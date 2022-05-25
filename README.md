@@ -1,2 +1,3 @@
 # projeto_integrador_teste
-projeto integrador da faculdade
+Projeto integrador da faculdade criado pelo aluno Richard Martins 
+Diciplina modelagem de sistema 
