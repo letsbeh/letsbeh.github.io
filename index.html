@@ -1,9 +1,14 @@
+<?php
+if (!isset($_SESSION)){
+  session_start();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DoctorWeed</title>
+    <title>DoctorRRTW</title>
 
     <link rel="stylesheet" href="./style.css" />
 
@@ -15,6 +20,7 @@
     />
   </head>
   <body>
+    
     <nav id="navigation">
       <div class="wrapper">
         <a class="logo" href="#home">
@@ -188,13 +194,13 @@
       <div class="wrapper">
         <div class="col-a">
           <header>
-            <h4>BOAS-VINDAS AO SITE 👋</h4>
-            <h1>Assistência e auxílio para pacientes medicinais de CBD </h1>
+            <h4>bem vindo ao painel <?php echo $_SESSION['nome']; ?> 👋</h4>
+            <h1>Assistência e auxílio portal do paciente </h1>
           </header>
 
           <div class="content">
             <p>
-               Esse projeto contempla a usabilidade de pacientes cujo precisam de um tratamento com CBD. 
+               Esse projeto contempla a usabilidade de um portal para os clientes marcar consulta e visualizar suas consultas. 
             </p>
             <a class="button" href="#contact">
               <svg
@@ -217,7 +223,7 @@
 
         <div class="col-b">
           <img
-            src="./assets/drhemp.png"
+            src="./assets/logo_projeto.png"
             alt="Cannabis frente cbd"
           />
         </div>
@@ -268,7 +274,7 @@
                 />
               </svg>
 
-              <h3>Mal de Parkinson</h3>
+              <h3>Clínico Geral</h3>
               <p>
                
               </p>
@@ -292,7 +298,7 @@
                 />
               </svg>
 
-              <h3>Tratamento da epilepsia </h3>
+              <h3>Dermatologista </h3>
               <p>
                 
               </p>
@@ -316,7 +322,7 @@
                 />
               </svg>
 
-              <h3>Bem-estar mental</h3>
+              <h3>Pediatria</h3>
               <p>
                 
               </p>
@@ -364,7 +370,7 @@
                 />
               </svg>
 
-              <h3>Autoimune e Inflamação</h3>
+              <h3>Vacinação</h3>
               <p>
                 
               </p>
@@ -388,7 +394,7 @@
                 />
               </svg>
 
-              <h3>Insônia</h3>
+              <h3>Nutricionista</h3>
               <p>
                 
               </p>
@@ -408,7 +414,7 @@
 
           <div class="content">
             <p>
-              Doctor Hemp está para facilitar pacientes que estão necessitando o uso de CBD para cura de alguma doença.
+              Doctor RRTW está para facilitar os agendamentos de pacientes que estão necessitando de algum tratamento com maior facilidade.
             </p>
           </div>
         </div>
@@ -481,13 +487,13 @@
                   />
                 </svg>
 
-                contato@doctorhemp.com
+                contato@doctorrrtw.com
               </li>
             </ul>
 
             <a
               class="button"
-              href="https://wa.me/5511963551747"
+              href="https://chat.whatsapp.com/GAnza2Mtcc5917Ob1huP4j"
               target="_blank"
             >
               <svg
@@ -510,7 +516,7 @@
 
         <div class="col-b">
           <img
-            src="./assets/homem-negro-com-moletom-bege-mexendo-no-celular.png"
+            src="./assets/homem-com-moletom-bege-mexendo-no-celular.png"
             alt="Homem negro com moletom bege mexendo no celular e sorrindo"
           />
         </div>
@@ -533,7 +539,7 @@
           </a>
 
           <p>
-            ©2022 DoctorHemp. <br />
+            ©2022 DoctorRRTW. <br />
             Todos os direitos reservados.
           </p>
         </div>
