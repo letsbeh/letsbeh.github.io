@@ -1,4 +1,4 @@
-# projeto_integrador_engenharia_software
+# projeto_integrador_desenvolvimento_de_sistemas
 
 Projeto integrador da faculdade de ADS criado criados pelos alunos:
 Richard Martins
